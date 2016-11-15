@@ -1,0 +1,29 @@
+/*this segment is for d3js*/
+.node {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+/*    fill: white;
+    stroke: black;
+    stroke-width: 1px;*/
+
+/*.links {
+    stroke: #FFA500;
+    stroke-width: 2px;
+}
+*/
+.links {
+  fill: none;
+  stroke: #FFA500;
+  stroke-width: 3px;
+  cursor: default;
+}
+
+.nodes text {
+  pointer-events: none;
+  font: 12px sans-serif;
+}
+
+
+

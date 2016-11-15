@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>group generator</title>
+  <link rel="stylesheet" href="public/d3projstyle.css">
+  <link rel="stylesheet" href="public/groups/groupstyle.css">
+  <!-- <script type="text/javascript" src="public/d3.min.js"></script> -->
+  <script type="text/javascript" src="public/d3.min.js"></script>
+  <script type="text/javascript" src="public/groups/graphvar.js"></script>
+  <script type="text/javascript" src="public/groups/cyclic.js" async></script>
+  <script type="text/javascript" src="public/groups/dihedral.js" async></script>
+  <!-- <script type="text/javascript" src="public/groupscript.js" async></script> -->
+  </head>
+
+  <body>
+
+
+
+  <div class="container">
+    <h1>Cyclic group Zn</h1>
+      <p>looks good until n=23</p>
+      <p> &lt; a | a^n = e &gt;</p>
+    <div id="cyclic"></div>
+
+    <h1>Dihedral group Dn</h1>
+      <p>looks good until n=12</p>
+      <p> &lt; a, b | a^n = b^2 = (a*b)^2 = e &gt;</p>
+    <div id="dihedral"></div>
+  </div>
+  </body>
+</html>
